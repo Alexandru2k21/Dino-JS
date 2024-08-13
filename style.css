@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'SD Dystopian';
+    src: url('fonts/Sddystopiandemo-GO7xa.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.game {
+    width: 1000px;
+    height: 500px;
+    border: 10px solid forestgreen;
+    margin: auto;
+    background-image: url(images/night-sky.jpeg) ;
+}
+
+#character {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    position: relative;
+    margin-left: 10px;
+    top: 450px;
+
+}
+
+.animate {
+    animation: jump 3s linear;
+
+}
+
+
+@keyframes jump {
+    0%{top: 70px};
+    30%{top: 70px};
+    70%{top: 70px};
+    100%{top: 70px};
+}
+
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    animation: block 1s infinite linear;
+}
+
+#block {
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    left: 100%;
+    animation: block 1s infinite linear;
+}
+#block2 {
+    background-color: rgb(181, 237, 13);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    left: 200%;
+    animation: block 2s ;
+}
+#block3 {
+    background-color: rgb(11, 247, 35);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    left: 300%;
+    animation: block 3s ;
+}
+
+@keyframes block{
+    0%{left: 1000px}
+    100%{left: -50px}
+}
+
+p {
+    text-align: center;
+    font-family: 'SD Dystopian';
+    font-weight: bolder;
+
+}
+
+ #left-eye {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    background-color: black;
+    border-radius: 50%;
+
+
+}
+#right-eye {
+    position: sticky;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    
+} 
+
+#mouth {
+    position: sticky;
+    width: 20px;
+    height: 10px;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 25%;
+    background-color: blueviolet;
+}
+ #left-eye-enemy1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    background-color: black;
+    border-radius: 50%;
+
+
+}
+#right-eye-enemy1 {
+    position: sticky;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    
+} 
+
+#mouth-enemy1 {
+    position: sticky;
+    width: 20px;
+    height: 10px;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 25%;
+    background-color: #f31010;
+}
+ #left-eye-enemy2 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    background-color: rgb(195, 28, 28);
+    border-radius: 50%;
+
+
+}
+#right-eye-enemy2 {
+    position: sticky;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    
+} 
+
+#mouth-enemy2 {
+    position: sticky;
+    width: 20px;
+    height: 10px;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 25%;
+    background-color: #f31010;
+}
+ #left-eye-enemy3 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    background-color: black;
+    border-radius: 50%;
+
+
+}
+#right-eye-enemy3 {
+    position: sticky;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    
+} 
+
+#mouth-enemy3 {
+    position: sticky;
+    width: 20px;
+    height: 10px;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 25%;
+    background-color: #2e10f3;
+}
+
+#mouth:hover {
+    background-color: chartreuse
+}
+#mouth-enemy:hover {
+    background-color: rgb(60, 0, 255)
+}
+
+#left-eye:hover, #right-eye:hover  {
+    background-color: #f31010;
+}
