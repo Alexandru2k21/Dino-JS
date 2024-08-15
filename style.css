@@ -14,9 +14,9 @@
 .game {
     width: 1000px;
     height: 500px;
-    border: 10px solid forestgreen;
+    border: 10px solid rgb(50, 34, 139);
     margin: auto;
-    background-image: url(images/night-sky.jpeg) ;
+    background-image: url(images/cosmos.jpg) ;
 }
 
 #character {
@@ -30,10 +30,9 @@
 }
 
 .animate {
-    animation: jump 3s linear;
+    animation: jump 2s linear;
 
 }
-
 
 @keyframes jump {
     0%{top: 70px};
@@ -43,13 +42,7 @@
 }
 
 
-.block {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    position: relative;
-    animation: block 1s infinite linear;
-}
+
 
 #block {
     background-color: aquamarine;
@@ -58,26 +51,9 @@
     position: relative;
     top: 400px;
     left: 100%;
-    animation: block 1s infinite linear;
+    animation: block 3s infinite linear;
 }
-#block2 {
-    background-color: rgb(181, 237, 13);
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 400px;
-    left: 200%;
-    animation: block 2s ;
-}
-#block3 {
-    background-color: rgb(11, 247, 35);
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 400px;
-    left: 300%;
-    animation: block 3s ;
-}
+
 
 @keyframes block{
     0%{left: 1000px}
@@ -150,66 +126,6 @@ p {
     bottom: 20px;
     border-radius: 25%;
     background-color: #f31010;
-}
- #left-eye-enemy2 {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    top: 10px;
-    background-color: rgb(195, 28, 28);
-    border-radius: 50%;
-
-
-}
-#right-eye-enemy2 {
-    position: sticky;
-    left: 35px;
-    width: 10px;
-    height: 10px;
-    bottom: 10px;
-    border-radius: 50%;
-    background-color: black;
-    
-} 
-
-#mouth-enemy2 {
-    position: sticky;
-    width: 20px;
-    height: 10px;
-    left: 15px;
-    bottom: 20px;
-    border-radius: 25%;
-    background-color: #f31010;
-}
- #left-eye-enemy3 {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    top: 10px;
-    background-color: black;
-    border-radius: 50%;
-
-
-}
-#right-eye-enemy3 {
-    position: sticky;
-    left: 35px;
-    width: 10px;
-    height: 10px;
-    bottom: 10px;
-    border-radius: 50%;
-    background-color: black;
-    
-} 
-
-#mouth-enemy3 {
-    position: sticky;
-    width: 20px;
-    height: 10px;
-    left: 15px;
-    bottom: 20px;
-    border-radius: 25%;
-    background-color: #2e10f3;
 }
 
 #mouth:hover {
